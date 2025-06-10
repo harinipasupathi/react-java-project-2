@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './tailwind.output.css';
 import 'antd/dist/reset.css'; // Required for Ant Design 5+
-import 'antd/dist/antd.css'; // Optional, for Ant Design 4.x
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
