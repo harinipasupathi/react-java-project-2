@@ -67,7 +67,7 @@ const App: React.FC = () => {
   const runTask = async (id: string) => {
     try {
       await axios.post(`http://localhost:4000/tasks/${id}/run`);
-      fetchTasks(); // Refresh to update taskExecutions
+      fetchTasks(); 
     } catch (err) {
       console.error('Error running task:', err);
     }
